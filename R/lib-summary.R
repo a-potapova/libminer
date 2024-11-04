@@ -1,3 +1,10 @@
+#' Provide Number of R packages by library
+#'
+#' @return a data.frame of R packages by library
+#' @export
+#'
+#' @examples
+#' lib_summary()
 lib_summary <- function(){
   pkgs <- utils::installed.packages()
   pkg_tbl <- table(pkgs[,"LibPath"])
