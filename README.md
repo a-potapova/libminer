@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/a-potapova/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/a-potapova/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -28,12 +30,12 @@ optionally with the total sizes, use the `lib_summary()` function:
 ``` r
 library(libminer)
 lib_summary()
-#>                                                                       library
+#>                                                                       Library
 #> 1                                          C:/Program Files/R/R-4.3.0/library
 #> 2                          C:/Users/POTAPOVAA/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/POTAPOVAA/AppData/Local/Temp/1/RtmpMTffQF/temp_libpath42b82afc7582
+#> 3 C:/Users/POTAPOVAA/AppData/Local/Temp/1/RtmpWaXs3D/temp_libpath84744f127d20
 #>   n_packages
 #> 1         29
-#> 2        302
+#> 2        304
 #> 3          1
 ```
